@@ -232,4 +232,7 @@ h3 {
 #nav {
 	display: none;
 }
+#hero, #fellow_hero, #catholic_hero, #releaf_hero, #sound_hero, #star_hero {
+	background-size: contain;
+}
 }
