@@ -7,7 +7,7 @@ body {
 	width: 100%;
 }
 h1 {
-	font-family: "Arvo";
+	font-family: 'Fjalla One', sans-serif;
 	font-weight: normal;
 	font-size: 55px;
 	text-align: center;
@@ -16,7 +16,7 @@ h1 {
 	padding: 0;
 }
 h2 {
-	font-family: "Arvo";
+	font-family: 'Fjalla One', sans-serif;
 	font-weight: normal;
 	font-size: 40px;
 	text-align: center;
@@ -25,7 +25,7 @@ h2 {
 	padding: 0;
 }
 h3 {
-	font-family: "Oswald";
+	font-family: 'Fjalla One', sans-serif;
 	font-weight: normal;
 	font-size: 16px;
 	text-align: center;
@@ -34,13 +34,19 @@ h3 {
 	z-index: 1;
 	position: relative;
 }
-
+.copy {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #484545;
+}
 .center {
 	margin: 0 auto;
 }
 .content {
 	margin: 0 auto;
-	width: 960px;
+	    width: auto;
+    max-width: 80%;
 }
 .clear {
 	clear: both;
@@ -51,19 +57,26 @@ h3 {
 	position: fixed;
 	margin-top: 30px;
 }
-
-.quotes {
-	font-family: 'Goudy Bookletter 1911', serif;
+.title {
+	font-size: 2.5em;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 10px;
+	background: rgba(128, 128, 128, 0.5);
+}
+.tag {
 	font-weight: normal;
 	font-size: 30px;
 	text-align: left;
 	margin: 50px auto;
 }
-.quotes_container {
-	width: 800px;
-	margin: 0 auto;
+.copy_container {
+	    width: 40%;
+    margin: 0 auto;
+    float: left;
+    padding-right: 2%;
 }
-
 #hero, #welcome {
 	width: 100%;
 }
@@ -76,7 +89,7 @@ h3 {
 	background-size: cover;
 }
 #welcome {
-	background-color: #fff;
+	background-color: #f9f9f9;
 	color: #333333;
 	height: 300px;
 	margin: 0 auto;
@@ -85,69 +98,35 @@ h3 {
 }
 #fellow_hero {
 	background: url( ../img/fellowBG.jpg) 50% 0 no-repeat fixed;
-	color: #fff;
-	height: 600px;
-	padding: 170px 0 0 0;
-	background-size: cover;
-}
-#fellow_ab {
-	background-color: #fff;
-	color: #333333;
-	height: 300px;
-	padding: 200px 0;
 }
 #catholic_hero {
 	background: url( ../img/catholicBG.jpg) 50% 0 no-repeat fixed;
-	color: #fff;
-	height: 600px;
-	padding: 170px 0 0 0;
-	background-size: cover;
 }
-#catholic_ab {
-	background-color: #fff;
-	color: #333333;
-	height: 300px;
-	padding: 200px 0;
-}#releaf_hero {
+#releaf_hero {
 	background: url( ../img/releafBG.jpg) 50% 0 no-repeat fixed;
-	color: #fff;
-	height: 600px;
-	padding: 170px 0 0 0;
-	background-size: cover;
 }
-#releaf_ab {
-	background-color: #fff;
-	color: #333333;
-	height: 300px;
-	padding: 200px 0;
-}#sound_hero {
+#sound_hero {
 	background: url( ../img/soundBG.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 600px;
-	padding: 170px 0 0 0;
-	background-size: cover;
-}
-#sound_ab {
-	background-color: #fff;
-	color: #333333;
-	height: 300px;
-	padding: 200px 0;
 }
 #star_hero {
 	background: url( ../img/starBG.jpg) 50% 0 no-repeat fixed;
+}
+#fellow_hero, #catholic_hero, #releaf_hero, #sound_hero, #star_hero {
 	color: #fff;
 	height: 600px;
 	padding: 170px 0 0 0;
 	background-size: cover;
 }
-#star_ab {
-	background-color: #fff;
+#fellow_ab, #catholic_ab, #releaf_ab, #sound_ab, #star_ab {
+	background-color: #f9f9f9;
 	color: #333333;
-	height: 300px;
-	padding: 200px 0;
+	min-height: 333px;
+	height: auto;
+	
+	padding: 5% 0;
 }
-
-#slide5 {
+#footclan {
 	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
 	height: 200px;
 	margin: 0 auto;
@@ -157,12 +136,8 @@ h3 {
 }
 #copyright {
 	color: #fff;
-	font-family: "Wellfleet";
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	margin-top: 100px;
 	text-align: center;
-}
-#copyright a {
-	text-decoration: none;
-	color: #fff;
 }
