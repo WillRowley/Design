@@ -97,8 +97,8 @@ h3 {
 }
 #nav {
 	float: right;
-    margin-top: 20px;
-    clear: both;
+	margin-top: 20px;
+	clear: both;
 }
 #logo a {
 	text-decoration: none;
@@ -115,7 +115,6 @@ h3 {
 #nav li {
 	margin-top: 9px;
 	padding-left: 21px;
-	
 }
 #nav li a {
 	color: #3c3f42;
@@ -137,9 +136,10 @@ h3 {
 #hero {
 	background: url( ../img/herowood.jpg) no-repeat fixed;
 	color: #3c3f42;
-	height: 200px;
+	text-shadow: 1px 1px 2px rgba(169, 169, 169, 0.5);
+	height: 250px;
 	margin: 0;
-	padding: 200px 0 260px 0;
+	padding: 100px 0 360px 0;
 	background-size: cover;
 }
 #welcome {
@@ -201,11 +201,35 @@ h3 {
 	text-align: center;
 }
 
-@media only screen and (max-device-width: 1330px) {
+@media only screen and (max-width: 1330px) {
+.copy_container {
+	width: 35%;
+}
+.img_container {
+	width: 60%;
+}
+#fellow_ab, #catholic_ab {
+	min-height: 800px;
+}
+#releaf_ab, #sound_ab, #star_ab {
+	min-height: 700px;
+}
+}
+
+@media only screen and (max-width: 960px) {
 .copy_container {
 	width: 100%;
 }
 .img_container {
-	width: 50%;
+	width: 90%;
+}
+#fellow_ab, #catholic_ab {
+	min-height: 1130px;
+}
+#releaf_ab, #sound_ab, #star_ab {
+	min-height: 900px;
+}
+#nav {
+	display: none;
 }
 }
